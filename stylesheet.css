@@ -48,6 +48,10 @@ body {
   font-size:48px;
   color:white;
 }
+/* .T{
+  color:black;
+
+} */
 .name p{
   font-size: 16px;
   color: white;
@@ -81,6 +85,9 @@ body {
 }
 .menu a{
   text-decoration: none;
+}
+.menu a:hover{
+  opacity: 0.7;
 }
 .menus-title{
   font-size: 32px;
@@ -125,9 +132,62 @@ body {
   font-size: 16px;
   padding: 4px 8px;
 }
+.text-contents a:hover{
+  opacity: 0.7;
+}
 .menu p{
   font-size: 16px;
 }
+.Blog img{
+  width:100%;
+  height: auto;
+}
+.Blog :hover{
+  opacity: 0.7;
+}
+
+/*ボックス全体*/
+.accbox {
+    margin: 4px 0;
+    padding: 0;
+    /* max-width: 400px;/*最大幅*/ */
+}
+/*ラベル*/
+.text-contents label {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding:4px 8px;
+}
+/*ラベルホバー時*/
+.text-contents label:hover {
+    background :black;
+    opacity: 0.7;
+}
+.accbox input {
+    display: none;
+}
+
+/*中身を非表示にしておく*/
+.accbox .accshow {
+    height: 0;
+    padding: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: 0.8s;
+}
+
+/*クリックで中身表示*/
+.cssacc:checked + .accshow {
+    height: auto;
+    padding: 8px;
+    background: #eaeaea;
+    opacity: 1;
+}
+
+
+
+
 
 /* clear */
 .clear{clear:both;}
