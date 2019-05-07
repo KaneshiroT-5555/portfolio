@@ -49,6 +49,23 @@
     margin-bottom:16px;
   }
 
+/* ヘッダーメニュー */
+/* hamburger */
+.icon-hamburger {
+  display: inline-block;
+}
+.menu-container .menu-right {
+    display: none;
+    position: absolute;
+    width: 100%;
+  }
+  .menu-container .menu-right .menu-item a {
+    border-bottom: 1px solid #ccc;
+    border-right: none;
+  }
+  .menu-container .menu-right .menu-item:last-child a {
+    border-bottom: none;
+  }
 
 
 }
