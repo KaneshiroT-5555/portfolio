@@ -5,6 +5,7 @@ header{
   background-color:black;
   opacity: 0.5;
   height: 64px;
+  padding-top: 16px;
   margin-bottom: -64px;
 }
 .header-left{
@@ -34,8 +35,6 @@ header{
   width: 48px;
   display: none;
   margin-bottom: 0.4em;
-  /* margin-right: 8px;
-  float: right; */
 }
 
 .icon-hamburger span {
@@ -73,7 +72,9 @@ header{
 
 .menu-container {
   margin:0;
+  padding-top:0;
   position: relative;
+
 }
 
 .menu-container .menu-right {
@@ -90,19 +91,22 @@ header{
 }
 
 .menu-container .menu-right .menu-item a {
-  background: #fff;
+  background: black;
   border-right: 1px solid #ccc;
-  color: #333;
+  color: white;
   display: block;
-  padding: 0.6em 0.4em;
+  padding:4px 4px ;
   text-align: center;
   text-decoration: none;
+
 }
 
 .menu-container .menu-right .menu-item a:hover {
   background: #ccc;
-  color: #ffffff;
+  /* color: #ffffff; */
+  color: black;
 }
+
 
 .menu-container .menu-right .menu-item:last-child a {
   border-right: none;
@@ -136,9 +140,10 @@ body {
 .name{
   margin-top: 64px;
   padding-top:32px;
+
 }
 .name h1{
-  font-size:48px;
+  font-size:88px;
   color:white;
 }
 /* .T{
